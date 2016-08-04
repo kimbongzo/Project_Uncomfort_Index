@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 체크버튼 on/off -->
+    <item android:state_focused="false">
+        <shape>
+            <!--모서리-->
+            <corners
+                android:bottomLeftRadius="8dp"
+                android:bottomRightRadius="0dp"
+                android:topLeftRadius="0dp"
+                android:topRightRadius="8dp" >
+            </corners>
+
+            <!--채움-->
+            <solid android:color="@color/app_color_tp"/>
+
+            <!--테두리-->
+            <stroke
+                android:width="1dp"
+                android:color="@color/app_color_1" />
+
+            <padding
+                android:bottom="10dp"
+                android:left="10dp"
+                android:right="10dp"
+                android:top="10dp" />
+
+        </shape>
+    </item>
+</selector>
